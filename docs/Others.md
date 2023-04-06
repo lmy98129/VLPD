@@ -32,4 +32,4 @@
     * To avoid adjust "val_begin", save checkpoints you want by adjust "save_begin" and "save_end". 
     * Then evaluate them offline like [Evaluation.md](./Evaluations.md),  instead of during training.
 
-*← Go back to* [README.md](../README.md)
+*← Go back to* [README.md](https://github.com/lmy98129/VLPD)
