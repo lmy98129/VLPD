@@ -91,7 +91,7 @@ Below are the visualizations of detection results on Caltech dataset between the
     * Detection result files are generated in MODEL_DIR directory, from epoch "val_begin" to "val_end" in "config_caltech.py" during training. 
     * To get Miss-Rate of these generated files, please refer to [Evaluation.md](docs/Evaluation.md#evaluate-the-results-on-caltech).
 
-* Checkpoints of our VLPD will be available to download in [Evaluation.md](docs/Evaluation.md). 
+* Checkpoints of our VLPD are available to download in [Evaluation.md](docs/Evaluation.md). 
 * **NOTE:** Adjusting "val_begin" will affect the reproducibility, please refer to [Others.md](docs/Others.md#about-reproducibility). 
 
 ## Citation
