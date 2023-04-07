@@ -1,7 +1,7 @@
 # VLPD
 Official Code of CVPR'23 Paper "VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision"
 
-\[arXiv (Coming Soon)\] \[[Supp. Materials](https://lmy98129.github.io/academic/src/VLPD-Supp.pdf)\] 
+\[[arXiv](https://arxiv.org/abs/2304.03135)\] \[[Supp. Materials](https://lmy98129.github.io/academic/src/VLPD-Supp.pdf)\] 
 
 ![docs/pipeline.jpg](docs/pipeline.jpg)
 
