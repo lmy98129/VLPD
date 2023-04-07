@@ -106,6 +106,8 @@ If you find our research helpful or make further research, please consider citin
 }
 ```
 
+For our more publications, please refer to Mengyin Liu's [Academic Page](https://lmy98129.github.io/academic) and Google Scholar of [Prof. Zhu](https://scholar.google.com/citations?user=4PookxMAAAAJ) and [Prof. Yin](https://scholar.google.com/citations?user=V3hiob0AAAAJ).
+
 ## Thanks
 1. Official code of the baseline CSP: [liuwei16/CSP](https://github.com/liuwei16/CSP)
 2. Unofficial PyTorch implemtation of CSP: [ligang-cs/CSP-Pedestrian-detection](https://github.com/ligang-cs/CSP-Pedestrian-detection)
