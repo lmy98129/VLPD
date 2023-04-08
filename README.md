@@ -110,5 +110,5 @@ For our more publications, please refer to Mengyin Liu's [Academic Page](https:/
 
 ## Thanks
 1. Official code of the baseline CSP: [liuwei16/CSP](https://github.com/liuwei16/CSP)
-2. Unofficial PyTorch implemtation of CSP: [ligang-cs/CSP-Pedestrian-detection](https://github.com/ligang-cs/CSP-Pedestrian-detection)
+2. Unofficial PyTorch implementation of CSP: [ligang-cs/CSP-Pedestrian-detection](https://github.com/ligang-cs/CSP-Pedestrian-detection)
 3. Official code of OpenAI-CLIP: [openai/CLIP](https://github.com/openai/CLIP)
