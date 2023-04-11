@@ -1,7 +1,7 @@
 # Evaluate the Trained Checkpoints
 
 * **NOTE**: The checkpoints and result files of VLPD are provided on [BaiduYun](https://pan.baidu.com/s/1rF8TEXybCdDUWO-HvzxbbQ?pwd=VLPD) and [GoogleDrive](https://drive.google.com/drive/folders/1rcGjK36zDZqxULoAztexupjxNlB0U4F6?usp=sharing). 
-* If needed, place these files in path "output/city (or caltech)" and perform 2~3 and 3~5 for evaluations. 
+* If needed, place these files in path "output/city (or caltech)" and perform 2\~3 and 3\~5 for evaluations. 
 * Evaluation of results on Caltech during training is also performed as [here](#evaluate-the-results-on-caltech) (start from step 3).
 
 ## Evaluate the results on CityPersons
