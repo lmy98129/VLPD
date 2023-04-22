@@ -21,7 +21,7 @@ def parse():
     parser = argparse.ArgumentParser()
     parser.add_argument('--val-path', default='', type=str, metavar='VAL_PATH', 
         help='path to latest checkpoint (default: none)')
-    parser.add_argument('--out_path', default='', type=str, metavar='OUT_PATH',
+    parser.add_argument('--out-path', default='', type=str, metavar='OUT_PATH',
         help='path to save detection results in json format (city) or txt file folder (caltech)')
     parser.add_argument('--dataset', default='city', type=str, metavar='DATASET',
         help='dataset to choose, including CityPersons (city) and Caltech (caltech)')
@@ -37,8 +37,8 @@ def fix_seed(seed):
     torch.backends.cudnn.benchmark = False
 
 def main():
-    cfg = Config() if args.dataset == 'city' else ConfigCaltech()
     args = parse()
+    cfg = Config() if args.dataset == 'city' else ConfigCaltech()
 
     fix_seed(cfg.seed)
 
