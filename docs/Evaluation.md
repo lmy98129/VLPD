@@ -1,7 +1,7 @@
 # Evaluate the Trained Checkpoints
 
 * **NOTE**: The checkpoints and result files of VLPD are provided on [BaiduYun](https://pan.baidu.com/s/1rF8TEXybCdDUWO-HvzxbbQ?pwd=VLPD) and [GoogleDrive](https://drive.google.com/drive/folders/1rcGjK36zDZqxULoAztexupjxNlB0U4F6?usp=sharing). 
-* If needed, place these files in path "output/city (or caltech)" and perform 2\~3 and 3\~5 for evaluations. 
+* If needed, place "VLPD-result-*.json (or .zip)" in path "output/city (or caltech)" and perform 2\~4 and 3\~6 to skip checkpoint files. 
 * Evaluation of results on Caltech during training is also performed as [here](#evaluate-the-results-on-caltech) (start from step 3).
 
 ## Evaluate the results on CityPersons
@@ -12,9 +12,9 @@
 
 3. Results will be saved at "output/city/val-262.json". Such results is also generated during each evalutation epoch of training. 
 
-3. Change the working directory by "cd eval_city/eval_script". Run the "python3 eval_demo.py" to caculate and output the miss rates of VLPD.
+4. Change the working directory by "cd eval_city/eval_script". Run the "python3 eval_demo.py" to caculate and output the miss rates of VLPD.
 
-4. Modify the line 509-522 at "eval_MR_multisetup.py" to change the evaluation setting, then repeat (2). You will get the final output as follows: 
+5. Modify the line 509-522 at "eval_MR_multisetup.py" to change the evaluation setting, then repeat (2). You will get the final output as follows: 
 
     Reasonable+Small+HO+All
     ```
