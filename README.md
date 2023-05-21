@@ -1,7 +1,7 @@
 # VLPD
 Official Code of CVPR'23 Paper "VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision"
 
-\[[arXiv](https://arxiv.org/abs/2304.03135)\] \[[Supp. Materials](https://lmy98129.github.io/academic/src/VLPD-Supp.pdf)\] 
+\[[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_VLPD_Context-Aware_Pedestrian_Detection_via_Vision-Language_Semantic_Self-Supervision_CVPR_2023_paper.html)\] \[[arXiv](https://arxiv.org/abs/2304.03135)\] \[[Supp. Materials](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Liu_VLPD_Context-Aware_Pedestrian_CVPR_2023_supplemental.pdf)\] 
 
 ![docs/pipeline.jpg](docs/pipeline.jpg)
 
@@ -98,11 +98,13 @@ Below are the visualizations of detection results on Caltech dataset between the
 If you find our research helpful or make further research, please consider citing: 
 
 ```
-@inproceedings{liu2023vlpd,
-  title={VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision},
-  author={Mengyin Liu, Jie Jiang, Chao Zhu, Xu-Cheng Yin},
-  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2023}
+@InProceedings{Liu_2023_CVPR,
+    author    = {Liu, Mengyin and Jiang, Jie and Zhu, Chao and Yin, Xu-Cheng},
+    title     = {VLPD: Context-Aware Pedestrian Detection via Vision-Language Semantic Self-Supervision},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {6662-6671}
 }
 ```
 
