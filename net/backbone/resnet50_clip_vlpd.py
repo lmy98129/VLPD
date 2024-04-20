@@ -106,8 +106,6 @@ class ResNet50_CLIP_VLPD(nn.Module):
             OrderedDict(weight=self.visual.attnpool.c_proj.weight.reshape(conv2_weight_shape),
                         bias=self.visual.attnpool.c_proj.bias))
         
-        del self.visual.layer4
-        del self.visual.attnpool
 
     def _make_dilated_block(self, block:BottleneckCLIP, stride=1, dilate=1):
         block_inplanes = block.conv1.in_channels
