@@ -76,7 +76,8 @@ def val_city(testloader, net, config, args):
             inputs = data.cuda()
             with torch.no_grad():
                 t1 = time.time()
-                pos, height, offset = net(inputs)
+                results = net(inputs, is_train=False)
+                pos, height, offset = results[:3]
                 t2 = time.time()
                 inference_time += (t2 - t1)
 
